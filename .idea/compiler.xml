@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for warmhouse" enabled="true">
+        <sourceOutputDir name="src/main/generated" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <option name="outputDirectory" value="D:\Jackie\Documents\Files\Vertx\4.0.0\warmhouse/src/main" />
+        <processor name="io.vertx.codegen.CodeGenProcessor" />
+        <module name="warmhouse" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="warmhouse" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="warmhouse" options="-AoutputDirectory=D:\Jackie\Documents\Files\Vertx\4.0.0\warmhouse/src/main" />
+    </option>
+  </component>
+</project>

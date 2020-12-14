@@ -1,0 +1,19 @@
+{
+  "database": {
+    "mysql": {
+      "port": 3306,
+      "host": "rm-wz9tnzbbk4ll9gl86do.mysql.rds.aliyuncs.com",
+      "database": "warm_house",
+      "user": "jackie",
+      "password": "19991114wxR!"
+    },
+    "redis": {
+      "host": "redis://120.79.100.43:6379/",
+      "password": "19991114wxR!"
+    }
+  },
+
+  "poolOptions": {
+    "maxsize": 10
+  }
+}
